@@ -7,6 +7,11 @@ export const tabs = [
         dest: '/',
     },
     {
+        icon: 'cached',
+        label: 'Switch League',
+        dest: 'https://ffpla.vercel.app/',
+    },
+    {
         icon: 'local_fire_department',
         label: 'Matchups',
         dest: '/matchups',
