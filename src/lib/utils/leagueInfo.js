@@ -1,6 +1,6 @@
 /*   STEP 1   */
 export const leagueID = "735925090583183360"; // your league ID
-export const leagueName = "Fantasy Football Premier League"; // your league name
+export const leagueName = "Fantasy Football Premier League B"; // your league name
 export const dues = 20; 
 export const dynasty = false; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
