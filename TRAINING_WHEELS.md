@@ -184,7 +184,7 @@ Generate a custom league page for your Sleeper fantasy football league in just a
 
 - Add blog capabilities to your League Page with [contenful](https://contentful.com/)
     - [Make a free contentful account](https://www.contentful.com/sign-up/)
-    - Click on `Content model` in the top bar and create Blog Post (id: `blog_post`) and Blog Comment (id: `blog_comment`) content models that matches the specs below:
+    - Click on `Content model` in the top bar and create Blog Post (id: `blog_post`) and Blog Comment (id: `blog_comment`) content models that matches the specs below **(All fields are required)**:
     ![content model](https://storage.googleapis.com/nfl-player-data/contentModel.jpg)
     ![comment model](https://storage.googleapis.com/nfl-player-data/commentModel.jpg)
         - Use sleeper your sleeper username for the author field when creating posts
@@ -228,6 +228,9 @@ Generate a custom league page for your Sleeper fantasy football league in just a
     - **If you first created your league before August 7th, 2021**, you may encounter `merge conflicts` when trying to fetch upstream.
         - In that situation (if you are new to coding), copy the contents of your managers page and your homepage text and delete your repo. Re-follow this guide and re-deploy your page.
         - There should be **NO merge conflicts going forward**.
+
+    - **WARNING:** There may be merge conflicts in `package-lock.json`. *This should be very rare.*
+        - Follow these instructions to [resolve the conflict](https://docs.github.com/en/github/collaborating-with-pull-requests/addressing-merge-conflicts/resolving-a-merge-conflict-on-github). For the most part, you'll most likely want to keep the changes from master (the second change)
 
 
 ## V. Wrapping up
