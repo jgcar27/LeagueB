@@ -157,8 +157,8 @@ export const managers = [
      },
      {
        "roster": 7,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Jerry Yakish",
-       "tookOver": 2021, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "name": "",
+       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Illinois", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/jerry.jpg", // square ratio recommended (no larger than 500x500)
@@ -179,8 +179,8 @@ export const managers = [
      },
      {
        "roster": 8,  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-       "name": "Aaron Hoenig",
-       "tookOver": 2021, // (optional) used if a manager took over a team, delete this line or change to null otherwise
+       "name": "",
+       "tookOver": 2022, // (optional) used if a manager took over a team, delete this line or change to null otherwise
        "location": "Iowa", // (optional)
        "bio": "Lorem ipsum...",
        "photo": "/managers/aaron.jpg", // square ratio recommended (no larger than 500x500)
